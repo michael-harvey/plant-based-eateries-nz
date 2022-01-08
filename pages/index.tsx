@@ -1,5 +1,11 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import dynamic from 'next/dynamic';
+import { useMemo } from 'react';
+
+const Map = dynamic(() => import("./components/Map"), { loading: () => <div>Loading</div>, ssr: false });
+
+// TODO: get loader animation
 
 const Home: NextPage = () => {
   return (
@@ -10,12 +16,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-
+      <main className="h-full">
+        <Map />
       </main>
 
       <footer>
-
       </footer>
     </>
   )

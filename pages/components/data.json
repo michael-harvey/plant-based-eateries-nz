@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "name": "Mockingbird",
+    "lat": -41.29373,
+    "lng": 174.78343,
+    "link": "https://mockingbirdwelly.co.nz/",
+    "type": "full"
+  },
+  {
+    "id": 1,
+    "name": "Sweet Release",
+    "lat": -41.29138,
+    "lng": 174.77724,
+    "link": "https://www.sweetrelease.co.nz/",
+    "type": "full"
+  },
+  {
+    "id": 2,
+    "name": "Willi's Kitchen",
+    "lat": -41.29165,
+    "lng": 174.77732,
+    "link": "https://www.sweetrelease.co.nz/",
+    "type": "mixed"
+  },
+  {
+    "id": 3,
+    "name": "Aunty Menas",
+    "lat": -41.2940414,
+    "lng": 174.7754547,
+    "link": "https://www.facebook.com/Aunty-Mena-Vegetarian-Cafe-133064006760606/",
+    "type": "full"
+  },
+  {
+    "id": 4,
+    "name": "Aroha",
+    "lat": -41.28817,
+    "lng": 174.77504,
+    "link": "https://www.facebook.com/ArohaPlantBased/",
+    "type": "mixed"
+  }
+]
