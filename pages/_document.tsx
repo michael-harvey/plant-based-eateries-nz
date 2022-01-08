@@ -5,7 +5,10 @@ export default class MyDocument extends Document {
     return (
       <Html lang="end" className="h-full">
         <Head>
-          <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+          <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet/dist/leaflet.css"
+          />
 
           <link
             rel="stylesheet"
