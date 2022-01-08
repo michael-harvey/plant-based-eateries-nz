@@ -1,5 +1,5 @@
 import { Marker, Popup } from "react-leaflet";
-import data from './data.json';
+import data from './markers.json';
 
 export default function Markers() {
     return (
