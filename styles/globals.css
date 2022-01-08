@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*
+  styles to make the document full height - useful for the map
+  - relying on 100vh is problematic on mobile as browser chrome height changes
+*/
+html,
+body,
+#__next,
+main {
+  height: 100%;
+}
