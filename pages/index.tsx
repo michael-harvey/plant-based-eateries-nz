@@ -1,9 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import dynamic from 'next/dynamic';
-import { useMemo } from 'react';
 
-const Map = dynamic(() => import("./components/Map"), { loading: () => <div>Loading</div>, ssr: false });
+const Map = dynamic(() => import("../components/Map"), { loading: () => <div>Loading</div>, ssr: false });
 
 // TODO: get loader animation
 
