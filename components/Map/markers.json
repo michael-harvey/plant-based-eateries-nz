@@ -1,0 +1,52 @@
+[
+  {
+    "id": 0,
+    "name": "Mockingbird",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe repellat reiciendis quo! Dolor architecto officiis itaque velit saepe ipsa nisi facilis non cupiditate, incidunt assumenda magnam natus veniam distinctio similique.",
+    "lat": -41.29373,
+    "lng": 174.78343,
+    "link": "https://mockingbirdwelly.co.nz/",
+    "logo": "/sweet-release.webp",
+    "type": "full"
+  },
+  {
+    "id": 1,
+    "name": "Sweet Release",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe repellat reiciendis quo! Dolor architecto officiis itaque velit saepe ipsa nisi facilis non cupiditate, incidunt assumenda magnam natus veniam distinctio similique.",
+    "lat": -41.29138,
+    "lng": 174.77724,
+    "link": "https://www.sweetrelease.co.nz/",
+    "logo": "/sweet-release.webp",
+    "type": "full"
+  },
+  {
+    "id": 2,
+    "name": "Willi's Kitchen",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe repellat reiciendis quo! Dolor architecto officiis itaque velit saepe ipsa nisi facilis non cupiditate, incidunt assumenda magnam natus veniam distinctio similique.",
+    "lat": -41.29165,
+    "lng": 174.77732,
+    "link": "https://www.sweetrelease.co.nz/",
+    "logo": "/willis-kitchen.webp",
+    "type": "mixed"
+  },
+  {
+    "id": 3,
+    "name": "Aunty Menas",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe repellat reiciendis quo! Dolor architecto officiis itaque velit saepe ipsa nisi facilis non cupiditate, incidunt assumenda magnam natus veniam distinctio similique.",
+    "lat": -41.2940414,
+    "lng": 174.7754547,
+    "link": "https://www.facebook.com/Aunty-Mena-Vegetarian-Cafe-133064006760606/",
+    "logo": "/aunty-menas.jpg",
+    "type": "full"
+  },
+  {
+    "id": 4,
+    "name": "Aroha",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe repellat reiciendis quo! Dolor architecto officiis itaque velit saepe ipsa nisi facilis non cupiditate, incidunt assumenda magnam natus veniam distinctio similique.",
+    "lat": -41.28817,
+    "lng": 174.77504,
+    "link": "https://www.facebook.com/ArohaPlantBased/",
+    "logo": "/",
+    "type": "mixed"
+  }
+]

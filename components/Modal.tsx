@@ -1,22 +1,24 @@
 import { Dialog } from "@headlessui/react";
+import { Dispatch, SetStateAction } from "react";
 
 /**
- * Displays a generic modal for displaying child content
- *
- * @param children
- * @param isOpen
- * @param onClose
- * @returns
+ * Displays a centred modal component
  */
-export default function Modal({ children, isOpen, onClose }: any) {
+type ModalProps = {
+  children: React.ReactNode;
+  isOpen: boolean;
+  onClose: Dispatch<SetStateAction<boolean>>;
+};
+
+export default function Modal({ children, isOpen, onClose }: ModalProps) {
   return (
     <Dialog
       open={isOpen}
       as="div"
       className="fixed z-10 inset-0 overflow-y-auto"
-      onClose={onClose ? onClose : () => null}
+      onClose={onClose}
     >
-      <div className="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+      <div className="flex items-end justify-center h-full pt-4 px-4 pb-20 text-center sm:block sm:p-0">
         <Dialog.Overlay className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
 
         {/* This element is to trick the browser into centering the modal contents. */}
