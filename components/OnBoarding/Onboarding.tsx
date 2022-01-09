@@ -1,20 +1,19 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { InformationCircleIcon } from "@heroicons/react/outline";
-import OnboardingModal from "./OnboardingModal";
+import Modal from "../Modal";
 import Button from "../Button";
-import { animated, useSpring } from "react-spring";
 
 /**
  * Displays a modal containing information
  */
 export default function OnBoarding() {
   const [step, setStep] = useState<number | null>(1);
-  const [open, setOpen] = useState(true);
 
   return (
-    <div>
-      <OnboardingModal isOpen={step === 1} onClose={setOpen}>
+    <>
+      {/* step 1 */}
+      <Modal isOpen={step === 1} onClose={() => {}}>
         <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
           <div className="sm:flex sm:items-start">
             <div className="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-blue-100 sm:mx-0 sm:h-10 sm:w-10">
@@ -45,13 +44,14 @@ export default function OnBoarding() {
           <div className="relative">
             <Button onClick={() => setStep(2)}>Next</Button>
             <span className="flex justify-center items-center absolute h-5 w-5 top-0 right-0 -mt-2 -mr-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-600 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-700"></span>
             </span>
           </div>
         </div>
       </Modal>
-      <Modal isOpen={step === 2} onClose={setOpen}>
+      {/* step 2 */}
+      <Modal isOpen={step === 2} onClose={() => {}}>
         <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
           <div className="sm:flex sm:items-start">
             <div className="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-blue-100 sm:mx-0 sm:h-10 sm:w-10">
@@ -82,6 +82,6 @@ export default function OnBoarding() {
           </div>
         </div>
       </Modal>
-    </div>
+    </>
   );
 }

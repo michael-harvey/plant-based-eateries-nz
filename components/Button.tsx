@@ -5,6 +5,9 @@ type ButtonProps = {
   onClick: React.MouseEventHandler<HTMLButtonElement>;
 };
 
+/**
+ * Generic button component
+ */
 export default function Button({ children, onClick }: ButtonProps) {
   return (
     <button
