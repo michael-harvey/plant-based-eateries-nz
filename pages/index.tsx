@@ -1,10 +1,9 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import dynamic from "next/dynamic";
-import Onboarding from "../components/Onboarding";
+import Onboarding from "../components/OnBoarding/Onboarding";
 
 const Map = dynamic(() => import("../components/Map"), {
-  loading: () => <div>Loading</div>,
   ssr: false,
 });
 
